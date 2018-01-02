@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TestAppConnectServer
 //
-//  Created by sigong_shin on 2017. 10. 30..
+//  Created by kcs on 2017. 10. 30..
 //  Copyright © 2017년 kcs. All rights reserved.
 //
 
