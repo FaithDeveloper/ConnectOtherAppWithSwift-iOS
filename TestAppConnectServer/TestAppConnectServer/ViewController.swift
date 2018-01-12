@@ -21,11 +21,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnSendApp(_ sender: Any) {
-        trueAppInstall(name: "test0001")
+        openApp(name: "test0001")
     }
     
     //MARK: true App 설치 또는 앱 연결
-    func trueAppInstall (name:String) {
+    func openApp (name:String) {
         if let appUrl = URL(string: "\(name)://") {
             if UIApplication.shared.canOpenURL(appUrl) {
                 UIApplication.shared.open(appUrl, options: [:], completionHandler: nil)
